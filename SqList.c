@@ -58,6 +58,7 @@ int ListDelete_Sq(SqList *L, int i, ElemType *e) {
 int main() {
     SqList *L = calloc(1, sizeof(SqList));
     InitLIst_Sq(L);
+    //读数部分
     printf("请输入%d个数\n", LIST_INIT_SIZE);
     for (int i = 0; i < LIST_INIT_SIZE; ++i) {
         scanf("%d", &L->elem[i]);
@@ -67,14 +68,17 @@ int main() {
         printf("%d ", L->elem[i]);
     }
     printf("\n");
-    printf("请输入要插入的位置和数值\n");
+
     int i, e;
+    //插入部分
+    printf("请输入要插入的位置和数值\n");
     scanf("%d %d", &i, &e);
     ListInsert_Sq(L, i, e);
     for (int i = 0; i < L->length; ++i) {
         printf("%d ", L->elem[i]);
     }
     printf("\n");
+    //删除部分
     printf("请输入要删除的位置\n");
     scanf("%d", &i);
     ListDelete_Sq(L, i, &e);
