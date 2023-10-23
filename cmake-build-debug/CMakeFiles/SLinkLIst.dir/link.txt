@@ -1,3 +1,0 @@
-C:\Users\wxj72\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\SLinkLIst.dir/objects.a
-C:\Users\wxj72\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\SLinkLIst.dir/objects.a @CMakeFiles\SLinkLIst.dir\objects1.rsp
-C:\Users\wxj72\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\SLinkLIst.dir/objects.a -Wl,--no-whole-archive -o SLinkLIst.exe -Wl,--out-implib,libSLinkLIst.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SLinkLIst.dir\linkLibs.rsp

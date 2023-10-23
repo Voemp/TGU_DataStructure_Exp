@@ -1,4 +1,0 @@
-D:/Code/CLionProjects/TGU_DataStructure_Exp/cmake-build-debug/CMakeFiles/SqList.dir
-D:/Code/CLionProjects/TGU_DataStructure_Exp/cmake-build-debug/CMakeFiles/SLinkLIst.dir
-D:/Code/CLionProjects/TGU_DataStructure_Exp/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Code/CLionProjects/TGU_DataStructure_Exp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
