@@ -71,7 +71,6 @@ int main() {
     getchar();
     Pop_Sq(S, &e);
     printf("弹出的元素为%d\n", e);
-    printf("\n");
     system("pause");
     return 0;
 }
