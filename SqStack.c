@@ -51,7 +51,8 @@ void StackPrint(SqStack *S) {
 int main() {
     SqStack *S = calloc(1, sizeof(SqStack));
     InitStack_Sq(S);
-    int i, e;
+    int i;
+    ElemType e;
     //读取
     printf("请输入5个数\n");
     for (i = 1; i <= 5; ++i) {

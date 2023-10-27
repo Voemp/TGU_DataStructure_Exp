@@ -68,8 +68,8 @@ int main() {
         printf("%d ", L->elem[i]);
     }
     printf("\n");
-
-    int i, e;
+    int i;
+    ElemType e;
     //插入部分
     printf("请输入要插入的位置和数值\n");
     scanf("%d %d", &i, &e);

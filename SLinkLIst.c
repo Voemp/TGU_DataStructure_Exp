@@ -51,7 +51,8 @@ int ListDelete_L(LinkList L, int i, ElemType *e) {
 }
 
 int main() {
-    int i, e;
+    int i;
+    ElemType e;
     LinkList L = (LNode *) calloc(1, sizeof(LNode));
     L->next = NULL;
     printf("ÇכÊהÈכ5¸צÊ‎\n");
