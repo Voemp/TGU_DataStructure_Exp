@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define LIST_INIT_SIZE 5
-#define LISTINCREMENT 5
+#define LIST_INIT_SIZE 5    //线性表存储空间的初始分配量
+#define LISTINCREMENT 5    //线性表存储空间的分配增量
 typedef int ElemType;
 
 
@@ -87,4 +87,5 @@ int main() {
     }
     printf("\n");
     system("pause");
+    return 0;
 }

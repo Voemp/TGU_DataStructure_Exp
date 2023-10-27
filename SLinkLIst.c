@@ -71,4 +71,5 @@ int main() {
     ListDelete_L(L, i, &e);
     ListPrint(L);
     system("pause");
+    return 0;
 }
