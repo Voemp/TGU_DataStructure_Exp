@@ -49,5 +49,6 @@ int main() {
     T = CreateBiTree(T);
     printf("中序遍历二叉树，非递归\n");
     InOrderTraverse(T);
+    system("pause");
     return 0;
 }
