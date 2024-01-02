@@ -146,6 +146,7 @@ void searchFlights(const FlightArray *flightArray) {
     printf("2. 起点站\n");
     printf("3. 到达站\n");
     printf("4. 航班日期\n");
+    
     printf("请输入选择（1-4）：");
     scanf("%d", &choice);
 
