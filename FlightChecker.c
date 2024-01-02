@@ -38,9 +38,6 @@ void quickSort(FlightArray *flightArray, int left, int right, int keyIndex);
 int partition(FlightArray *flightArray, int left, int right, int keyIndex);
 
 int main() {
-    // 替换为实际的CSV文件名
-    const char *filename = "flight_info.csv";
-
     // 创建动态数组来存储航班信息
     FlightArray flightArray;
     flightArray.size = 0;
@@ -53,6 +50,7 @@ int main() {
     }
 
     // 从CSV文件中读取航班信息
+    const char *filename = "flight_info.csv";
     readCSV(filename, &flightArray);
 
     int choice;
