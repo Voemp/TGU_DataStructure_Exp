@@ -171,6 +171,12 @@ int main() {
     addPath(&campus, 7, 9, 4);  // 从操场到实验室的路径长度为4
     addPath(&campus, 8, 9, 5);  // 从校门到实验室的路径长度为5
 
+    for (int i = 0; i < 10; i++){
+        for (int j = 0; j < 10; j++){
+            printf("%d\t",campus.distance[i][j]);
+        }
+    }
+
     // 执行Floyd算法计算最短路径
     floyd(&campus);
 
